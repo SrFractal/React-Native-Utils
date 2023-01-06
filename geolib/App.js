@@ -22,6 +22,8 @@ import {
  *    also slower. It is using the Vincenty inverse formula
  *    for ellipsoids.
  */
+
+// npm install geolib --save
 import {getDistance, getPreciseDistance} from 'geolib';
 
 const App = () => {
